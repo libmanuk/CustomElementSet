@@ -25,13 +25,13 @@ class SPOKEdboElementSet
     public static $elements = array(
         array(
             'name'           => 'OHMS Object',
-            'description'    => 'Description of First Element',
+            'description'    => 'A valid URL to an OHMS object',
             'record_type'    => 'Item',
             'data_type'      => 'Tiny Text'
         ),
         array(
             'name'           => 'Interview Format',
-            'description'    => 'Description of Second Element',
+            'description'    => 'File format for the oral history; audio or video.',
             'record_type'    => 'Item',
             'data_type'      => 'Tiny Text'
         ),
