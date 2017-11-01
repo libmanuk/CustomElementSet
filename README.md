@@ -3,4 +3,4 @@ This plugin adds the custom SPOKEdbo Oral History element set to Omeka.  This el
 
 # Attribution
 
-This script is based on the OmekaElementSetExample plugin which is mantained and was originally developed by Jeremy Boggs. Original code can be found at 
+This script is based on the OmekaElementSetExample plugin which is mantained and was originally developed by Jeremy Boggs. Original code can be found at https://github.com/lightrain21/OmekaElementSetExample
