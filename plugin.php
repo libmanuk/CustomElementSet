@@ -3,23 +3,23 @@
  * @version $Id$
  * @copyright Eric C. Weig, 2017
  * @license http://www.gnu.org/licenses/gpl-3.0.txt
- * @package SPOKEdboElementSet
+ * @package OHMSElementSet
  */
 
-add_plugin_hook('install', 'SPOKEdboElementSet::install');
-add_plugin_hook('uninstall', 'SPOKEdboElementSet::uninstall');
-add_plugin_hook('admin_append_to_plugin_uninstall_message', 'SPOKEdboElementSet::plugin_uninstall_message');
+add_plugin_hook('install', 'OHMSElementSet::install');
+add_plugin_hook('uninstall', 'OHMSElementSet::uninstall');
+add_plugin_hook('admin_append_to_plugin_uninstall_message', 'OHMSElementSet::plugin_uninstall_message');
 
 /**
  *
  * Based on the OmekaElementSetExample plugin by Jeremy Boggs, 2011.
  * 
- * @package SPOKEdboElementSet
+ * @package OHMSElementSet
  */
 
-class SPOKEdboElementSet
+class OHMSElementSet
 {
-    const ELEMENT_SET_NAME = 'SPOKEdbo Element Set';
+    const ELEMENT_SET_NAME = 'OHMS Element Set';
     const ELEMENT_SET_DESCRIPTION = 'Add your element set description.';
     
     public static $elements = array(
