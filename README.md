@@ -1,5 +1,5 @@
-# SPOKEdboElementSet
-This plugin adds the custom SPOKEdbo Oral History element set to Omeka.  This element set includes metadata required for use with the SPOKEdbo oral history plugins and theme. 
+# OHMSElementSet
+This plugin adds the custom OHMS Oral History element set to Omeka.  This element set includes metadata required for use with the SPOKEdbo oral history theme and additional OHMS plugins. 
 
 # Attribution
 
