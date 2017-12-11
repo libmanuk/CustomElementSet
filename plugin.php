@@ -30,12 +30,43 @@ class OHMSElementSet
             'data_type'      => 'Tiny Text'
         ),
         array(
+            'name'           => 'OHMS Object Text',
+            'description'    => 'Searchable full-text from the OHMS Object',
+            'record_type'    => 'Item',
+            'data_type'      => 'Tiny Text'
+        ),     
+        array(
+            'name'           => 'Topic',
+            'description'    => 'Genre/Topic term from local authority list',
+            'record_type'    => 'Item',
+            'data_type'      => 'Tiny Text'
+        ),       
+        array(
+            'name'           => 'Interviewee',
+            'description'    => 'Person(s) interviewed',
+            'record_type'    => 'Item',
+            'data_type'      => 'Tiny Text'
+        ),          
+        array(
+            'name'           => 'Interviewer',
+            'description'    => 'Person(s) conducting the interview',
+            'record_type'    => 'Item',
+            'data_type'      => 'Tiny Text'
+        ),          
+        array(
             'name'           => 'Interview Format',
             'description'    => 'File format for the oral history; audio or video.',
             'record_type'    => 'Item',
             'data_type'      => 'Tiny Text'
+        ),          
+        array(
+            'name'           => 'Interview Digital File Name',
+            'description'    => 'Digital file name.',
+            'record_type'    => 'Item',
+            'data_type'      => 'Tiny Text'
         ),
     );
+    
     
     public static function install()
     {        
