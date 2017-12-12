@@ -60,13 +60,36 @@ class OHMSElementSet
             'data_type'      => 'Tiny Text'
         ),          
         array(
-            'name'           => 'Interview Digital File Name',
-            'description'    => 'Digital file name.',
+            'name'           => 'Collection',
+            'description'    => 'Collection related to the interview.',
+            'record_type'    => 'Item',
+            'data_type'      => 'Tiny Text'
+        ),
+        array(
+            'name'           => 'Interview Accession',
+            'description'    => 'Unique identifier for the interview.',
+            'record_type'    => 'Item',
+            'data_type'      => 'Tiny Text'
+        ),
+        array(
+            'name'           => 'Interview Keyword',
+            'description'    => 'A keyword which describes the interview.',
+            'record_type'    => 'Item',
+            'data_type'      => 'Tiny Text'
+        ),
+        array(
+            'name'           => 'Interview Topic',
+            'description'    => 'A word or phrase which describes the main focus of the interview.',
+            'record_type'    => 'Item',
+            'data_type'      => 'Tiny Text'
+        ),
+        array(
+            'name'           => 'Interview Duration',
+            'description'    => 'Length of interview in minutes and seconds.',
             'record_type'    => 'Item',
             'data_type'      => 'Tiny Text'
         ),
     );
-    
     
     public static function install()
     {        
