@@ -4,6 +4,8 @@ This plugin adds the custom OHMS Oral History element set to Omeka.  This elemen
 # Metadata Dictionary
 Coming soon!
 
+<iframe src="https://docs.google.com/spreadsheets/d/1Ht-D8wAq0pppdX1CVQO_w6twdMapEdKcWE0IQGmsaOc/edit?usp=sharing">
+
 # Attribution
 
 This script is based on the OmekaElementSetExample plugin which is mantained and was originally developed by Jeremy Boggs. Original code can be found at https://github.com/lightrain21/OmekaElementSetExample
