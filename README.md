@@ -3,7 +3,7 @@ This plugin adds the custom OHMS Oral History element set to Omeka.  This elemen
 
 # Metadata Dictionary
 Coming soon!
-<iframe src="https://docs.google.com/spreadsheets/d/1Ht-D8wAq0pppdX1CVQO_w6twdMapEdKcWE0IQGmsaOc/edit?usp=sharing" width="900" height="780" style="border: none;"></iframe>
+<iframe src="https://docs.google.com/" width="900" height="780" style="border: none;"></iframe>
 
 
 
