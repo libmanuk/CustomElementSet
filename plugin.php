@@ -89,6 +89,12 @@ class OHMSElementSet
             'record_type'    => 'Item',
             'data_type'      => 'Tiny Text'
         ),
+        array(
+            'name'           => 'Bio',
+            'description'    => 'Description of person or organization.',
+            'record_type'    => 'Item',
+            'data_type'      => 'Tiny Text'
+        ),
     );
     
     public static function install()
