@@ -90,6 +90,12 @@ class OHMSElementSet
             'data_type'      => 'Tiny Text'
         ),
         array(
+            'name'           => 'Sort Priority',
+            'description'    => 'Integer representing priority for sorting.',
+            'record_type'    => 'Item',
+            'data_type'      => 'Tiny Text'
+        ),
+        array(
             'name'           => 'Bio',
             'description'    => 'Description of person or organization.',
             'record_type'    => 'Item',
