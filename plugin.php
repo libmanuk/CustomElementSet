@@ -6,9 +6,11 @@
  * @package OHMSElementSet
  */
 
+/**
 add_plugin_hook('install', 'OHMSElementSet::install');
 add_plugin_hook('uninstall', 'OHMSElementSet::uninstall');
 add_plugin_hook('admin_append_to_plugin_uninstall_message', 'OHMSElementSet::plugin_uninstall_message');
+*/
 
 /**
  *
@@ -116,7 +118,8 @@ class OHMSElementSet
         
         insert_element_set($elementSetMetadata, self::$elements);
     }
-    
+
+/**     
     public static function uninstall()
     {
         if ($elementSet = get_db()->getTable('ElementSet')->findByName(self::ELEMENT_SET_NAME)) {
@@ -128,4 +131,7 @@ class OHMSElementSet
     {
         echo '<p><strong>Warning</strong>: This will permanently delete the "' . self::ELEMENT_SET_NAME . '" element set and all its associated metadata. You may deactivate this plugin if you do not want to lose data.</p>';
     }
+    
+ */
+
 }
