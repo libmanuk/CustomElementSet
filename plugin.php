@@ -6,8 +6,10 @@
  * @package OHMSElementSet
  */
 
-/**
+
 add_plugin_hook('install', 'OHMSElementSet::install');
+
+/**
 add_plugin_hook('uninstall', 'OHMSElementSet::uninstall');
 add_plugin_hook('admin_append_to_plugin_uninstall_message', 'OHMSElementSet::plugin_uninstall_message');
 */
