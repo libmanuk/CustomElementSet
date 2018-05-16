@@ -3,37 +3,37 @@
  * @version $Id$
  * @copyright Eric C. Weig, 2017
  * @license http://www.gnu.org/licenses/gpl-3.0.txt
- * @package OHMSElementSet
+ * @package CustomElementSet
  */
 
 
-add_plugin_hook('install', 'OHMSElementSet::install');
-add_plugin_hook('uninstall', 'OHMSElementSet::uninstall');
-add_plugin_hook('admin_append_to_plugin_uninstall_message', 'OHMSElementSet::plugin_uninstall_message');
+add_plugin_hook('install', 'CustomElementSet::install');
+add_plugin_hook('uninstall', 'CustomElementSet::uninstall');
+add_plugin_hook('admin_append_to_plugin_uninstall_message', 'CustomElementSet::plugin_uninstall_message');
 
 
 /**
  *
  * Based on the OmekaElementSetExample plugin by Jeremy Boggs, 2011.
  * 
- * @package OHMSElementSet
+ * @package CustomElementSet
  */
 
-class OHMSElementSet
+class CustomElementSet
 {
-    const ELEMENT_SET_NAME = 'OHMS Element Set';
+    const ELEMENT_SET_NAME = 'Custom Element Set';
     const ELEMENT_SET_DESCRIPTION = 'Add your element set description.';
     
     public static $elements = array(
         array(
-            'name'           => 'OHMS Object',
-            'description'    => 'A valid URL to an OHMS object',
+            'name'           => 'Custom Object',
+            'description'    => 'A valid URL to an Custom object',
             'record_type'    => 'Item',
             'data_type'      => 'Tiny Text'
         ),
         array(
-            'name'           => 'OHMS Object Text',
-            'description'    => 'Searchable full-text from the OHMS Object',
+            'name'           => 'Custom Object Text',
+            'description'    => 'Searchable full-text from the Custom Object',
             'record_type'    => 'Item',
             'data_type'      => 'Tiny Text'
         ),     
